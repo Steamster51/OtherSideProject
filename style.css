@@ -1,0 +1,353 @@
+.navbar{
+    padding: 0.2em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-size: 1.3em;
+}
+
+.navbar-brand{
+    font-size: 1.32em;
+}
+
+.navbar-expand-lg{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+/*Services page css----------------------------------------------------------------------------------------------------------------*/
+#servicesmain{
+    text-align: center;
+    background-image: url("/static/img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#servicesmain section{
+    display: block;
+    height: 25%;
+    margin: 2em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: whitesmoke;
+}
+
+#sectiondivs div{
+    display: inline-block;
+    width: 49%;
+    margin-top: 15pt;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#sectiondivs div h2{
+    width: 100%;
+}
+
+#cremationimg{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+/*Map page css----------------------------------------------------------------------------------------------------------------*/
+#mapmain{
+    min-height: 95%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+/*Contact page css----------------------------------------------------------------------------------------------------------------*/
+#contactmain{
+    text-align: center;
+    background-image: url("/static/img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#contactdiv{
+    width: 90%;
+    height: 88%;
+    margin-left: 5%;
+    margin-top: 1%;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contactform{
+    margin-top: 3em;
+}
+
+#contactform input, #contactform label{
+    display: block;
+    text-align: center;
+}
+
+#contactform label{
+    font-size: 26px;
+    margin-bottom: 0.2em;
+}
+
+#contactform input{
+    margin: 0;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 0.5em;
+    font-size: 22px;
+}
+
+#contactform textarea{
+    width: 40%;
+    font-size: 22px;
+}
+
+/*About page css-----------------------------------------------------------------------------------------------------------------*/
+#aboutdiv{
+    text-align: center;
+    background-image: url("/static/img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#aboutdiv div{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 1.5em;
+    margin-top: 1em;
+    height: 89%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+}
+
+#eventimg{
+    width: 53%;
+    height: 53%;
+    border-radius: 50%;
+}
+
+
+
+/*Home page css--------------------------------------------------------------------------------------------------------------------*/
+#indexmain{
+    background-image: url("/static/img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#beRemembereddiv h3{
+    font-size: 4em;
+    height: 100%;
+    padding-top: 2.5%;
+    color:lightblue;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#beRemembereddiv{
+    width: 75%;
+    height: 20%;
+    margin-left: 12.5%;
+    margin-top: 1%;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    background-image: url("/static/img/beRememberedPic.jpg");
+    background-size:cover;
+    text-align: center;
+}
+
+#descriptiondiv{
+    margin-top: 1em;
+    width: 90%;
+    margin-left: 5%;
+    height: 65%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+
+
+
+#descriptiondiv h4{
+    width: 80%;
+    padding-top: 8%;
+    padding-left: 20%;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-link{
+        text-align: center;
+    }
+
+    #beRemembereddiv{
+        font-size: 12px;
+        margin: 0;
+        width: 100%;
+        height: 10%;
+    }
+
+    #descriptiondiv{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: 76%;
+    }
+
+    #descriptiondiv h4{
+        width: 100%;
+        padding-top: 7em;
+        margin: 0;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+
+    /*About page css-------------------------------------------*/
+    #aboutdiv{
+        background-repeat: no-repeat;
+        background-size:cover;
+        min-height: 100%;
+        position: relative;
+        height: 110%;
+        width: 100%;
+    }
+    
+    #aboutdiv div{
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: whitesmoke;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+
+    #aboutdiv h3{
+        font-size: 16px;
+        padding-bottom: 2em;
+    }
+    
+    #eventimg{
+        width: 53%;
+        height: 53%;
+        border-radius: 50%;
+    }
+
+    /*Services page css-------------------------------------------------*/
+    #servicesmain{
+        text-align: center;
+        background-image: url("/static/img/Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 95%;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #servicesmain section{
+        display: block;
+        height: 25%;
+        margin: 0;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: whitesmoke;
+    }
+    
+    #sectiondivs div{
+        display: inline-block;
+        width: 49%;
+        margin-top: 15pt;
+        padding: 0;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    #sectiondivs div h2{
+        width: 100%;
+    }
+    
+    #cremationimg{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    /*Contact page css----------------------------------------------------------------*/
+    #contactmain{
+        text-align: center;
+        background-image: url("/static/img/Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 95%;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #contactdiv{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    #contactform{
+        margin-top: 1em;
+    }
+    
+    #contactform input, #contactform label{
+        display: block;
+        text-align: center;
+    }
+    
+    #contactform label{
+        font-size: 24px;
+        margin-bottom: 0.2em;
+    }
+    
+    #contactform input{
+        margin: 0;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 0.5em;
+        font-size: 18px;
+    }
+    
+    #contactform textarea{
+        width: 80%;
+        font-size: 22px;
+    }
+}

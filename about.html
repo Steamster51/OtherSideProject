@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<main id="aboutdiv">
+    <div>
+        <br>
+        <h1 style="color:aliceblue;">Our history</h1>
+        <br>
+        <h3>
+            The cemetery opened in July 1844 for the burial of people professing the Anglican faith. At that time, most of the city's population of 18,000 lived south of Queen Street West, and the cemetery's location was regarded during that era as being outside the city limits. The cemetery was necessary because the burial ground around the cathedral itself, in use since 1797, was out of room.
+
+            The large, impressive specimen of Copper Beech that grows next to the chapel was planted by the Prince of Wales (later King Edward VIII) on his visit to Canada in 1919.
+
+            Recognizing the growing trend throughout the world towards cremation, a crematorium was added in 1948. As of 2020, over 95,000 interments and 114,000 cremations have taken place at the cemetery.
+
+            The cemetery is home to the Chapel of St. James-the-Less, which sits atop a knoll at the highest point of the cemetery. In its harmonious composition, this small funeral chapel is a splendid example of Victorian Gothic design. Its sense of strength and spirituality is derived from the subtle contrast of its stone walls, enveloping roofs, and soaring spire. Erected in 1860 and opened in 1861, the chapel was designed by Cumberland and Storm, one of Toronto's leading 19th-century architectural firms. The Chapel of St. James-the-Less was designated a National Historic Site of Canada in 1990.
+            <br><br>
+            <a href="https://en.wikipedia.org/wiki/St._James_Cemetery_(Toronto)" style="color:greenyellow;">Visit Wikipedia</a>
+        </h3>
+    </div>
+    <div>
+        <br>
+        <h1 style="color:aliceblue;">Upcoming Events</h1>
+        <br><br>
+        {% load static %}
+        <img id="eventimg" src="{% static 'img/roundimgjpg.jpg' %}" />
+        <br><br>
+        <h2 style="color: gold;">Sirius Sarcophage</h2>
+        <br>
+        <h3>Sirius Sarcophage Date of Passing: Jan. 5, 2021 Funeral Home:  A. B Ridley Private Service to be held at OtherSide Cemetery</h3>
+    </div>
+</main>
+{% endblock %}

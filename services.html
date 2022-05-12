@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<main id="servicesmain">
+    <section id="sectiondivs">
+        <div>
+            <h2 style="color: gold;">Cremation</h2>
+            <p>Cremation saves land space and has a smaller impact on the limited land available for burial space.</p>
+        </div>
+        <div style="text-align: center;">
+            {% load static %}
+            <img id="cremationimg" src="{% static 'img/fire.jpg' %}"/>
+        </div>
+    </section>
+    <section id="sectiondivs">
+        <div>
+            {% load static %}
+            <img id="cremationimg" src="{% static 'img/burialjpg.jpg' %}"/>
+        </div>
+        <div>
+            <h2 style="color: gold;">Ground Burial</h2>
+            <p>Be buried close to each other for generations to come</p>
+        </div>
+    </section>
+    <section id="sectiondivs">
+        <div>
+            <h2 style="color: gold;">Mausoleum Crypt</h2>
+            <p>Omfortable all-year visitation and many options for memorialization</p>
+        </div>
+        <div>
+            {% load static %}
+            <img id="cremationimg" src="{% static 'img/mausoleum.jpg' %}" />
+        </div>
+    </section>
+</main>
+{% endblock %}

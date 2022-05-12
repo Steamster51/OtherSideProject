@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<main id="contactmain">
+    <div id="contactdiv">
+        <h1 style="color:gold; padding-top: 1em;">Contact Us!</h1>
+        <h3 style="color:greenyellow;">{{ feedback }}</h3>
+        <h3 style="color:burlywood;">{{ Error }}</h3>
+        <form id="contactform" action="/contact" method="post">
+            {% csrf_token %}
+            {{ Form }}
+            <br>
+            <input class="btn btn-success" type="submit" value="Submit">
+        </form>
+    </div>
+</main>
+{% endblock %}
